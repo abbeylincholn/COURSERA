@@ -52,3 +52,32 @@ if (age >= 65) {
     console.log('The value of the age variable is not numerical')
 }
 
+// practice 2
+
+var day = 'Sunday';
+
+switch (day) {
+    case 'Monday':
+        console.log('Do something')
+        break;
+    case 'Tuesday':
+        console.log('Get something')
+        break;
+    case 'Wedneday':
+        console.log('Done Nothing')
+        break;
+    case 'Thursday':
+        console.log('passing things')
+        break;
+    case 'Friday':
+        console.log('chilling day')
+        break;
+    case 'Saturday':
+        console.log('partying')
+        break;
+    case 'Sunday':
+        console.log('clubbing')
+        break;
+    default:
+        console.log('There is no such day');
+}
