@@ -14,6 +14,7 @@ console.log('---No match found at', 2)
 console.log('Found the', "t", 'at', 3)
 
 function findMatchInWord(word, match){
+    
     console.log("==================================")
     console.log(word, match)
     console.log("==================================")
@@ -25,7 +26,7 @@ function findMatchInWord(word, match){
         }
     }
     console.log("\n")
-}
+} 
 // 1 abbey, y
 // 2 tobi, o
 // 3 nigeria, i
