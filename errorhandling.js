@@ -78,6 +78,22 @@ var totalSalary = manager1.salary + manager2.salary;
 //     console.log("Error occured: "+err.message)
 // }
 
+
+//--------------------------------------------------------------------
+//----------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
 // function addTwoNums (a, b) {
 //     console.log(a + b)
 // try {
