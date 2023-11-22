@@ -59,3 +59,6 @@ function letterFinder(word, match) {
   }
 }
 letterFinder("test", "t");
+
+noise = 'thunder'
+console.log(noise)
