@@ -1,0 +1,154 @@
+// GeneralManagers = GM;
+
+//console.log(GM2)
+//var GM1.Graduate = true
+
+// try {
+//     var GM1 = {
+//     name: "Adeshola Tope",
+//     salary: 60000,
+//     Shops: ["Checkpoint","T-Junction", "New-Sharp-Corner"],
+//     basedShop: "New-SharpCorner",
+//     age: 25,
+//     bonus: (GM1.salary * 20)/100,
+//     Graduate: true,
+//   }
+//     var GeneralManagers = GM1
+//     console.log(GeneralManagers)
+// } catch (err){
+//     console.log("Error occured: "+err.message)
+// }
+
+//======================================================================================
+
+var GM1 = {
+  name: "Adeshola Tope",
+  salary: 60000,
+  Shops: ["Checkpoint", "T-Junction", "New-Sharp-Corner"],
+  basedShop: "New-SharpCorner",
+  age: 25,
+  Graduate: true,
+};
+GM1.bonus = (GM1.salary * 20) / 100;
+console.log(GM1);
+console.log("\n");
+var GM2 = {
+  name: "Lawal Saheed",
+  salary: 80000,
+  Shops: ["New-Mammy", "New-Checkpoint", "Baba street"],
+  basedShop: "New-Mammy",
+  age: 33,
+  Graduate: false,
+};
+GM2.bonus = (GM2.salary * 20) / 100;
+console.log(GM2);
+console.log("\n");
+var GM3 = {
+  name: "Omodiale Jude",
+  salary: 60000,
+  Shops: ["Mammy", "Maraba-Junction", "Heart-Plaza"],
+  basedShop: "Maraba-Junction",
+  age: 26,
+  bonus: 35000,
+  Graduate: false,
+};
+GM3.bonus = (GM3.salary * 20) / 100;
+console.log(GM3);
+console.log("\n");
+var GM4 = {
+  name: "Sowemimo Oluwaseyi",
+  salary: 70000,
+  Shops: ["JFK", "New-Banex", "Aso"],
+  BasedShop: "JFK",
+  age: 33,
+  bonus: 40000,
+  Graduate: true,
+};
+GM4.bonus = (GM4.salary * 20) / 100;
+console.log(GM4);
+console.log("\n");
+var GM5 = {
+  name: "Onwuzurike Chidimma",
+  salary: 60000,
+  Shops: ["Sharp-Corner", "Omega"],
+  basedShop: "Sharp-Corner",
+  age: 30,
+  bonus: 40000,
+  Graduate: true,
+};
+GM5.bonus = (GM5.salary * 20) / 100;
+console.log(GM5);
+console.log("\n");
+var GM6 = {
+  name: "Benard Emmanuel",
+  salary: 60000,
+  Shops: ["Tasha", "New-Health", "Calvary"],
+  basedShop: "Tasha",
+  age: 27,
+  bonus: 35000,
+  Graduate: false,
+};
+GM6.bonus = (GM6.salary * 20) / 100;
+console.log(GM6);
+console.log("\n");
+var GM7 = {
+  name: "Sanjo Samuel",
+  salary: 40000,
+  Shops: ["Usiju", "kabayi-field", "New-Aso"],
+  basedShop: "Usiju",
+  age: 33,
+  bonus: 25000,
+  Graduate: true,
+};
+GM7.bonus = (GM7.salary * 20) / 100;
+console.log(GM7);
+console.log("\n");
+var GM8 = {
+  name: "Christopher Emmanuel",
+  salary: 40000,
+  Shops: ["Old-Banex", "Primary-Health-care", "Pulaku"],
+  basedShop: "Old-Banex",
+  age: 28,
+  bonus: 10000,
+  Graduate: true,
+};
+GM8.bonus = (GM8.salary * 20) / 100;
+console.log(GM8);
+console.log("\n");
+var GM9 = {
+  name: "Abubakar Shaibu",
+  salary: 30000,
+  Shops: ["Lafia 1", "Lafia 2", "Lafia 3"],
+  basedShop: "Lafia 3",
+  age: 27,
+  bonus: 15000,
+  Graduate: false,
+};
+GM9.bonus = (GM9.salary * 20) / 100;
+console.log(GM9);
+console.log("\n");
+var GM10 = {
+  name: "Abdulrazaq  Olabamiji",
+  salary: 60000,
+  Shops: ["Emab", "Midland", "Back-of-Aso"],
+  basedShop: "Emab",
+  age: 36,
+  bonus: 40000,
+  Graduate: true,
+};
+GM10.bonus = (GM10.salary * 20) / 100;
+console.log(GM10);
+console.log("\n");
+
+var totalSalary =
+  GM1.salary +
+  GM2.salary +
+  GM3.salary +
+  GM4.salary +
+  GM5.salary +
+  GM6.salary +
+  GM7.salary +
+  GM8.salary +
+  GM9.salary +
+  GM10.salary;
+console.log(" Total Salary is: ", totalSalary);
