@@ -82,7 +82,7 @@ var totalSalary = manager1.salary + manager2.salary;
 //--------------------------------------------------------------------
 //----------------------------------------------------------------
 
-
+/// method is when a function is inside a class
 
 
 
