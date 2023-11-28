@@ -1,4 +1,5 @@
-// To be stored
+//Arrays of object
+// To be stored 
 var nameofManager = "Tobi Sholanke";
 var managerSalary = 50000;
 var vatPercent = 7;
@@ -39,7 +40,7 @@ var manager2 = {
   Shops: ["Abacha", "Kabay"],
   basedShop: "Abacha",
 };
-// console.log(manager2)
+//console.log(manager2)
 //-----------------------------------------
 var totalSalary = manager1.salary + manager2.salary;
 //console.log("totalSalary: ", totalSalary)
@@ -48,3 +49,11 @@ var totalSalary = manager1.salary + manager2.salary;
 
 var managers = [manager1, manager2]; // Array. JSON Javascript Object Notation
 console.log(managers);
+
+// Assignment Arrays of object for GMs
+
+
+
+
+
+
