@@ -37,6 +37,7 @@ class President extends Governor {
   }
 }
 var jagabam = new President("Tinubu", "Nigeria", "APC", "01/02/2023", true);
+
 var Biden = new President("Joe Biden", "USA", "Democratic", "04/01/2020", true);
 console.log("Tinubu tenure's ended: ", jagabam.hasTenureEnded());
 console.log("Joe Biden tenure's ended: ", Biden.hasTenureEnded());
